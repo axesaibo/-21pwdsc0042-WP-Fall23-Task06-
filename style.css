@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a52f2f;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid  {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 200px;
+    background-image: url(backround.jpg);
+    background-size: cover;
+}
+
+
+.book-list {
+    flex: 1;
+    padding: 20px;
+}
+
+.book-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.book-list ul {
+    list-style: none;
+}
+
+.book-list li {
+    margin-bottom: 10px;
+}
+.book-list p {
+    font-size: small;
+    opacity: 0.6;
+}
+
+.add-book {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.add-book h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.add-book input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-book button {
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-book button:hover {
+    background-color: #0e271b;
+    border-radius: 50px;
+    transition: all 0.2s ease 0s;
+}
+
+
+.search-books {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ccc;
+}
+
+.search-books h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.search-books input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-books ul {
+    list-style: none;
+}
+
+.search-books li {
+    margin-bottom: 10px;
+}
+.search-books button {
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-books button:hover {
+    background-color: #0e271b;
+    border-radius: 50px;
+    transition: all 0.2s ease 0s;
+}

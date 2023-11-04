@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OLMS</title>
+</head>
+<body>
+    <div  class="container-fluid p-5 bg-primary text-white text-center">
+        <div class="book-list">
+            <h2>Book List</h2>
+            <ul id="book-list">
+                <p>1. Hacking the art of explotation by john ericksonis ISBN: 978-1593271442 <br>
+                2. Inrtroduction to the theory of computation by micheal sipser ISBN: 978-113333426 <br>
+                3. Eloquent javascript: A modern introduction to programing ISBN: 978-238982074632
+                </p>
+                
+            </ul>
+        </div>
+        <div class="add-book">
+            <h2>Add New Book</h2>
+            <form id="add-book-form">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="author" placeholder="Author" required>
+                <input type="text" id="ISBN" placeholder="ISBN" required>
+                <button type="submit">Add Book</button>
+            </form>
+        </div>
+        <div class="search-books">
+            <h2>Search for Books</h2>
+            <input type="text" id="search" placeholder="Search by title or author">
+            <ul id="search-results">
+            </ul>
+            <button type="search">search</button>
+        </div>
+    </>
+    <script src="script.js"></script>
+</body>
+</html>
